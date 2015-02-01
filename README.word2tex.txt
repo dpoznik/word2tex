@@ -1,14 +1,23 @@
 #----------------------------------------------------------------------
 Word to LaTeX Pipeline
+David Poznik
+2015.1.22
 
-These steps outline an algorithm to convert a paper written in MS Word
-to a LaTeX file, assuming Mendeley is used as the citation manager 
-on both ends.
+The below outlines an algorithm to convert a paper written in MS Word
+to LaTeX, assuming Mendeley is used as the citation manager on both ends.
 
-The process involves three parts.
-The first steps are best done manually within Word.
-Next, run the shell script.
-Finally, do some post-processing.
+The main motivation was to automate the process of migrating citations
+(steps 7 & 9). The other steps are generally necessary as well.
+
+The process involves three parts:
+I.   The first steps are best done manually within Word.
+II.  Next, run the shell script.
+III. Finally, do some post-processing.
+
+One-time setup step:
+Install my "latex-converter" Mendeley citation style.
+Mendeley... view... citation style... more styles... get more styles... 
+    download style... http://csl.mendeley.com/styles/9160351/latex-converter 
 #----------------------------------------------------------------------
 
 -------
