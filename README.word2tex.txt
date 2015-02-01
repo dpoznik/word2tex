@@ -34,7 +34,7 @@ MS Word
       replace all: <progName>     with: \texttt{progName}
 
 3. Math
-   a. replace all: 10-   		 	with: %10^{-xx}$
+   a. replace all: 10-   	  with: %10^{-xx}$
       then search: xx	and replace with actual exponent
    b. variables, including all greek letters, and inline math
       e.g. $N_e$, $\tmrca$, $\hat \theta_w$, etc.
@@ -45,7 +45,7 @@ MS Word
 5. Sectioning
    Assuming \chapter{} and \section{} are taken and \subparagraph{} is not useful: 
    a. Big bold 	-> \subsection{}
-   b. Bold 		-> \subsubsection{}
+   b. Bold 	-> \subsubsection{}
    c. Italics 	-> \paragraph{}
 
 6. Figures and tables
@@ -71,7 +71,7 @@ Command Line and Tex editor
     Search for @@ in filename.tex
     Add citation key in Mendeley, then repeat steps 9 & 10 as necessary.
 
-11. Fix more things in TexShop:
+11. Fix more things in Tex editor:
     a. search: ?          likely replacements: $\rightarrow$, $\times$, $\cdot$
     b. search: noPMID     get citation key manually from Mendeley
 
